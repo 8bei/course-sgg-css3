@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 // import Demo from "./components/01_CSS语法";
 // import Demo from "./components/02_常用选择器";
 // import Demo from "./components/03_复合选择器";
@@ -22,7 +22,8 @@ import React from 'react';
 // import Demo from './layout/08_盒子的尺寸';
 // import Demo from './layout/09_轮廓和圆角';
 // import Demo from './float/01_浮动简介';
-import Demo from './float/02_浮动的其它特点';
+// import Demo from './float/02_浮动的其它特点';
+import Demo from "./exercise/04_导航条";
 
 export default function App() {
   return <Demo />;
