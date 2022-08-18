@@ -18,7 +18,8 @@ import React from 'react';
 // import Demo from './layout/07_行内元素的盒子模型';
 // import Demo from './exercise/01_图片列表';
 // import Demo from './exercise/02_左侧导航';
-import Demo from './exercise/03_网易新闻';
+// import Demo from './exercise/03_网易新闻';
+import Demo from './layout/08_盒子的尺寸';
 
 export default function App() {
   return <Demo />;

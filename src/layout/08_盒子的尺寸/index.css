@@ -1,0 +1,9 @@
+.box1 {
+    width:100px;
+    height:100px;
+    background: deepskyblue;
+    padding:10px;
+    border:10px red solid;
+    /* box-sizing: content-box; */
+    box-sizing: border-box;
+}
