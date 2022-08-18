@@ -1,0 +1,28 @@
+p {
+  font-size: 20px;
+}
+/* 第一行 */
+p::first-line {
+  text-decoration: underline wavy gray;
+}
+/* 第一个字符 */
+p::first-letter {
+  color: lightyellow;
+  font-size: 60px;
+  background: darkred;
+  padding: 3px 6px;
+}
+/* 选中的内容 */
+p::selection {
+  background: lemonchiffon;
+}
+
+/* p::before {
+  content: "";
+} */
+
+p::after {
+  content: "🔚";
+  background: chartreuse;
+  padding: 4px;
+}

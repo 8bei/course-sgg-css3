@@ -1,0 +1,26 @@
+span {
+  display: inline-block;
+}
+/* 直接子元素 */
+div > span {
+  color: red;
+}
+/* 所有后代元素 */
+div span {
+  text-decoration: underline overline wavy olivedrab;
+}
+
+div > p > span {
+  color: blue;
+}
+
+/* 选择之后紧挨着的最近的兄弟 */
+p + span {
+  background: burlywood;
+}
+/* 选择之后所有兄弟 */
+p ~ span {
+  border: 1px solid gray;
+  margin: 1px;
+  padding: 1px;
+}

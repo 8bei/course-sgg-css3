@@ -1,0 +1,23 @@
+.s1{
+    /* width:200px;
+    height:200px; */
+
+    /* padding: 30px; */
+    /* border:30px solid red; */
+    /* margin:30px; */
+    background: cyan;
+}
+
+.box1{
+    width:200px;
+    height:200px;
+    background: deeppink;
+}
+
+a {
+    display:inline-block;
+    visibility: visible ;
+    width:100px;
+    height: 100px;
+    background: orange;
+}

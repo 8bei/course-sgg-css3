@@ -1,0 +1,16 @@
+a {
+  display: block;
+}
+
+/* 未访问过 */
+a:link {
+  color: red;
+}
+/* 访问过 */
+a:visited {
+  color: firebrick;
+}
+/* 鼠标悬停 */
+a:hover {
+  color: slateblue;
+}

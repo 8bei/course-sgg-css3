@@ -1,0 +1,22 @@
+/* 第一个子元素 */
+ul > li:first-child {
+  color: red;
+}
+/* 最后一个子元素 */
+ul > li:last-child {
+  color: blue;
+}
+/* 第n个子元素 
+    特殊值：
+      n：全部元素（0~正无穷），比如 ul > li:nth-child(n)
+      2n或even：偶数位的元素，比如 ul > li:nth-child(2n)
+      2n+1或odd:奇数位的元素，比如 ul > li:nth-child(2n+1)
+*/
+ul > li:nth-child(3) {
+  color: green;
+}
+
+/* 否定 */
+ul > li:not(:nth-child(4)) {
+  background: skyblue;
+}

@@ -1,0 +1,9 @@
+.outer{
+    background: cornsilk;
+}
+.inner {
+    width:100px;
+    background: darkcyan;
+    height: 200px;
+    margin-bottom: 100px;
+}

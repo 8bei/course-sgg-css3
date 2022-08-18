@@ -1,0 +1,51 @@
+div {
+  margin: 3px;
+  padding: 3px;
+}
+/* 包含指定属性 */
+p[title] {
+  text-decoration: underline wavy;
+}
+/* 属性值等于指定值 */
+[title="foo"] {
+  color: red;
+}
+[title="bar"] {
+  color: goldenrod;
+}
+[title="foobar"] {
+  color: darkolivegreen;
+}
+/* 属性值以指定值开头 */
+[title^="foo"] {
+  background: skyblue;
+}
+/* 属性值以指定值结尾 */
+[title$="bar"] {
+  border-left: 4px solid gray;
+  padding-left: 3px;
+}
+/* 属性值含有指定值 */
+[title*="oba"] {
+  border-radius: 4px;
+}
+input[type="text"] {
+  border: none;
+  border-bottom: 1px solid blue;
+  outline: none;
+}
+input[type="email"] {
+  border: 2px dotted green;
+  outline: none;
+}
+input[type="password"] {
+  border: 1px dashed orchid;
+  outline-offset: 3px;
+}
+input[type="button"] {
+  border: 1px solid darkblue;
+  border-radius: 4px;
+  background: blue;
+  color: #fff;
+  padding: 3px 6px;
+}

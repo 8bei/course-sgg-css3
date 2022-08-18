@@ -1,0 +1,13 @@
+.outer {
+    width:800px;
+    height: 200px;
+    border: 10px solid red;
+}
+
+.inner {
+    width: 200px;
+    height: 200px;
+    background: skyblue;
+    /* margin-left: auto;
+    margin-right: auto; */
+}

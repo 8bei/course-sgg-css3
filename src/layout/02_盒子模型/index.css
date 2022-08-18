@@ -1,0 +1,9 @@
+.box1 {
+    /* 内容区 */
+    width:200px;
+    height: 200px;
+    background: #bfa;
+
+    /* 边框 */
+    border:10px solid red;
+}
