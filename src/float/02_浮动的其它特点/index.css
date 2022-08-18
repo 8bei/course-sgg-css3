@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box1 {
+  width: 200px;
+  height: 200px;
+  background: #14b8a6;
+  float: left;
+}
+p::first-letter {
+  color: deeppink;
+}
+
+.box2 {
+  background: #ef4444;
+  float: left;
+}
+
+.s1 {
+  background: #65a30d;
+  width: 100px;
+  height: 100px;
+  float: left;
+}

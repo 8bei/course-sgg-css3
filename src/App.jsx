@@ -21,7 +21,8 @@ import React from 'react';
 // import Demo from './exercise/03_网易新闻';
 // import Demo from './layout/08_盒子的尺寸';
 // import Demo from './layout/09_轮廓和圆角';
-import Demo from './float/01_浮动简介';
+// import Demo from './float/01_浮动简介';
+import Demo from './float/02_浮动的其它特点';
 
 export default function App() {
   return <Demo />;
