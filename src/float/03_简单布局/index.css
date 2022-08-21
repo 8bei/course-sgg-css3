@@ -1,0 +1,43 @@
+header,
+main,
+footer {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  height: 120px;
+  background: chocolate;
+}
+
+main {
+  height: 500px;
+  background: khaki;
+  margin: 10px auto;
+}
+
+main > nav {
+  width: 200px;
+  background: aquamarine;
+  height: 100%;
+  float: left;
+}
+main > article {
+  width: 540px;
+  background: deeppink;
+  height: 100%;
+  float: left;
+  margin: 0 10px;
+}
+
+main > aside {
+  width: 200px;
+  background: tomato;
+  height: 100%;
+  float: left;
+}
+
+footer {
+  height: 150px;
+  background: deepskyblue;
+}

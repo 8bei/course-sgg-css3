@@ -23,7 +23,11 @@ import React from "react";
 // import Demo from './layout/09_轮廓和圆角';
 // import Demo from './float/01_浮动简介';
 // import Demo from './float/02_浮动的其它特点';
-import Demo from "./exercise/04_导航条";
+// import Demo from "./exercise/04_导航条";
+// import Demo from "./float/03_简单布局";
+// import Demo from "./float/04_高度塌陷和BFC";
+// import Demo from "./float/05_BFC演示";
+import Demo from "./float/06_clear";
 
 export default function App() {
   return <Demo />;

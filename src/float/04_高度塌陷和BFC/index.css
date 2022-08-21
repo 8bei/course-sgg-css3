@@ -1,0 +1,12 @@
+.outer {
+  border: 10px solid red;
+  /* 开启BFC */
+  overflow: hidden;
+}
+
+.inner {
+  width: 100px;
+  height: 100px;
+  background: greenyellow;
+  float: left;
+}
