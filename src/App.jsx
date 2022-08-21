@@ -28,7 +28,8 @@ import React from "react";
 // import Demo from "./float/04_高度塌陷和BFC";
 // import Demo from "./float/05_BFC演示";
 // import Demo from "./float/06_clear";
-import Demo from "./float/07_【最终方案】使用after伪类解决高度塌陷";
+// import Demo from "./float/07_【最终方案】使用after伪类解决高度塌陷";
+import Demo from "./float/08_clearfix";
 
 export default function App() {
   return <Demo />;

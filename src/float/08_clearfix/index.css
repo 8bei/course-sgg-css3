@@ -1,0 +1,20 @@
+.outer {
+  width: 200px;
+  border: 1px solid black;
+}
+
+.inner {
+  width: 100px;
+  height: 100px;
+  background: orangered;
+  margin-top: 100px;
+  float: left;
+}
+
+/* 同时解决高度塌陷和外边距重叠的问题 */
+.clearfix::after,
+.clearfix::before {
+  content: "";
+  display: table;
+  clear: both;
+}
