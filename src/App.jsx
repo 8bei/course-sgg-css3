@@ -31,7 +31,8 @@ import React from "react";
 // import Demo from "./float/07_【最终方案】使用after伪类解决高度塌陷";
 // import Demo from "./float/08_clearfix";
 // import Demo from "./position/01_定位的简介及相对定位";
-import Demo from "./position/02_绝对定位";
+// import Demo from "./position/02_绝对定位";
+import Demo from "./position/03_固定定位";
 
 export default function App() {
   return <Demo />;
