@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  border: 10px solid red;
+  list-style: none;
+}
+
+ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+li {
+  width: 100px;
+  height: 100px;
+  background: lightseagreen;
+  float: left;
+  margin: 0 5px;
+}
+
+li:first-child {
+  margin-left: 0;
+}
+li:last-child {
+  margin-right: 0;
+}
+
+li:nth-child(2) {
+  height: 200px;
+}
+
+li:nth-child(3) {
+  height: 300px;
+}
+
+li:nth-child(4) {
+  height: 150px;
+}
