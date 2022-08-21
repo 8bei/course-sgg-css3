@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #fff;
+  height: 3000px;
+}
+.navbar {
+  list-style: none;
+  width: 960px;
+  margin: 50px auto;
+  background: #e5e7eb;
+  height: 34px;
+  position: sticky;
+  top: 10px;
+}
+
+.navbar > li {
+  float: left;
+  height: 34px;
+}
+
+.navbar a {
+  display: inline-block;
+  height: 24px;
+  line-height: 24px;
+  margin: 0 20px;
+  padding: 5px;
+  color: #111827;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: #111827;
+  color: #e5e7eb;
+}
